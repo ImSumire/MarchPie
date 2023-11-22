@@ -38,7 +38,7 @@ class App(mglw.WindowConfig):
     resource_dir = "Shaders"
     title = "Ray Marching"
     resizable = False
-    vsync = True  # True : ~60fps  |  False : ~280fps
+    vsync = False  # True : ~60fps  |  False : ~280fps
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
